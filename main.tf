@@ -15,14 +15,14 @@ terraform {
 provider "azurerm" {
   features {}
 
-   subscription_id = <your-subscription-id> //"d018180f-cbf8-464b-a6b8-103c8177b6b5"
-   tenant_id       = <your-tenant-id>  //"d018180f-cbf8-464b-a6b8-103c8177b6b5"
+   subscription_id = <your-subscription-id> 
+   tenant_id       = <your-tenant-id>  
 }
 provider "null" {
   version = "~> 3.0"
 }
 provider "github" {
-  token =  <your-github-token> //"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"
+  token =  <your-github-token> 
 }
 
 variable "zip_file_name" {
